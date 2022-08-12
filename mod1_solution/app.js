@@ -22,7 +22,7 @@ else if(chk>=4)
   $scope.fnumberofwords = function () {
     var str = $scope.chkText ;
     var words = str.split(',') ;
-   return words.length-1
+   return words.length
 
   };
 }
